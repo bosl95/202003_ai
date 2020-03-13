@@ -1,0 +1,6 @@
+s = int(input("학점 입력 : "))
+if s>=81 and s<=100: print("A")
+elif s>=61 and s<=80: print("B")
+elif s>=41 and s<=60: print("C")
+elif s>=21 and s<=40: print("D")
+else: print("F")
